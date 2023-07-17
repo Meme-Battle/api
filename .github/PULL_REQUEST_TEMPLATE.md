@@ -1,8 +1,17 @@
-## Jira task
-[MBU-5](https://memebattle.atlassian.net/browse/MBU-5)
+## Jira Task
+- [MBU-?](https://memebattle.atlassian.net/browse/MBU-?)
 
 ### Description
-adding the template request for facilitate the write description in pull requests.
+<!--- Description about what have been done on this merge request, could include the objective of the jira ticket or some more technical detail of the merge requests (example: i had to do X thing on our redux store because of Y, i added a new utility function that makes Z, i choose to use X design pattern because of W) that will help who is reviewing to have a better understand about what you have done. -->
 
-## Checklist
-- [ ] Added the pull_request_template.md archive?
+### Checklist
+- [ ] Updated the CHANGELOG.md with the latest changes.
+
+
+### Attachments
+<!-- A screenshot, GIF or video about the new screen or component, if necessary. -->
+<!-- Please add it inside the table to avoid the screenshots getting huge. -->
+
+| Result |
+| ------ |
+| <!-- [Printscreen](Link) --> |
