@@ -4,6 +4,8 @@ Follow the [Meme Battle styleguide](https://github.com/Meme-Battle/styleguide/bl
 
 ## Folder Structure (general) ##
 
+
+
 ```
 README.md - You are here!
 ```
