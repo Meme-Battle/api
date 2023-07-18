@@ -9,3 +9,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 - Create the PULL_REQUEST_TEMPLATE.md [MBU-10](https://memebattle.atlassian.net/browse/MBU-10)
+- Create the project setup [MBU-3](https://memebattle.atlassian.net/browse/MBU-3)
