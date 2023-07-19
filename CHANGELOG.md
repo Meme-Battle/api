@@ -9,8 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 - Create the PULL_REQUEST_TEMPLATE.md [MBU-10](https://memebattle.atlassian.net/browse/MBU-10)
-<<<<<<< HEAD
+
 - Create the project setup [MBU-3](https://memebattle.atlassian.net/browse/MBU-3)
-=======
+
 - Add content in the contributing file:structure of project [MBU-7](https://memebattle.atlassian.net/browse/MBU-7)
->>>>>>> cd310ab (feat(MBU-7): adding a structure of project in contributing file)
