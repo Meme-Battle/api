@@ -12,20 +12,20 @@ Follow the [Meme Battle styleguide](https://github.com/Meme-Battle/styleguide/bl
 │       ├── main.ts
 │       ├── app.module.ts
 │       ├── errors
-│       │   └── <error_type>.error.ts
+│       │   └── TypeErrorExample.error.ts
 │       ├── middlewares
-│       │   └── <type_middleware>.middleware.ts
-│       ├── <modules>
-│       │   └── <module>
-│       │       ├── <module>.module.ts
+│       │   └── TypeMiddlewareExample.middleware.ts
+│       ├── modules
+│       │   └── moduleExample
+│       │       ├── moduleExample.module.ts
 │       │       └── UseCases
-│       │           ├── <module>.controller.ts
-│       │           ├── <module>.DTO.ts
-│       │           └── <module>.service.ts
+│       │           ├── moduleExample.controller.ts
+│       │           ├── moduleExample.DTO.ts
+│       │           └── moduleExample.service.ts
 │       ├── providers
-│       │   └── <provider>.provider.ts
+│       │   └── providerExample.provider.ts
 │       └── repositories
-│           └── <entity>.repository.ts
+│           └── entityExample.repository.ts
 ├── CHANGELOG.md
 └── README.md
 ```
