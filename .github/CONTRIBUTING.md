@@ -4,20 +4,28 @@ Follow the [Meme Battle styleguide](https://github.com/Meme-Battle/styleguide/bl
 
 ## Folder Structure (general) ##
 ``` 
- ├── prisma/
- │       └── migrations/ 
- │       └── schema.prisma/ #Montagem das models
- ├── src/
-    │   ├── providers/
-    │   ├── └── #Provedores do projeto, ex : prisma, typeorm, sequelize e etc.
-    │   ├── repositories/
-    │   ├── └── #Repositórios do projeto, ex : Onde vai estar os métodos de execução com o banco.
-    │   ├── middlewares/
-    │   │   └── #Middlewares do projeto, ex : verificadores de autênticação.
-    │   ├── modules/
-    │   │   └──<module>/
-    │   │       └── UseCases
-    │   │                 └── #Casos de uso do projeto
-    │   └── errors/
-    │       └── #Manipuladores de Erros do projeto, ex: ErrorHTTP.
+├── api
+│   ├── prisma
+│   │   ├── migrations
+│   │   └── schema.prisma
+│   └── src
+│       ├── main.ts
+│       ├── app.module.ts
+│       ├── errors
+│       │   └── <error_type>.error.ts
+│       ├── middlewares
+│       │   └── <type_middleware>.middleware.ts
+│       ├── <modules>
+│       │   └── <module>
+│       │       ├── <module>.module.ts
+│       │       └── UseCases
+│       │           ├── <module>.controller.ts
+│       │           ├── <module>.DTO.ts
+│       │           └── <module>.service.ts
+│       ├── providers
+│       │   └── <provider>.provider.ts
+│       └── repositories
+│           └── <entity>.repository.ts
+├── CHANGELOG.md
+└── README.md
 ```
