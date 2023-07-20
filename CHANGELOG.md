@@ -13,4 +13,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
-- Fixed Commitlint and Husky settings  [MBU-3](https://memebattle.atlassian.net/browse/MBU-3)
+- Fixed Commitlint and Husky settings [MBU-3](https://memebattle.atlassian.net/browse/MBU-3)
