@@ -4,28 +4,37 @@ Follow the [Meme Battle styleguide](https://github.com/Meme-Battle/styleguide/bl
 
 ## Folder Structure (general) ##
 ``` 
+.
 ├── api
 │   ├── prisma
 │   │   ├── migrations
 │   │   └── schema.prisma
 │   └── src
-│       ├── main.ts
+│       ├── app.controller.ts
 │       ├── app.module.ts
-│       ├── errors
-│       │   └── TypeErrorExample.error.ts
-│       ├── middlewares
-│       │   └── TypeMiddlewareExample.middleware.ts
-│       ├── modules
-│       │   └── moduleExample
-│       │       ├── moduleExample.module.ts
-│       │       └── UseCases
-│       │           ├── moduleExample.controller.ts
-│       │           ├── moduleExample.DTO.ts
-│       │           └── moduleExample.service.ts
-│       ├── providers
-│       │   └── providerExample.provider.ts
-│       └── repositories
-│           └── entityExample.repository.ts
+│       ├── app.service.ts
+│       ├── main.ts
+│       └── modules
+│           ├── gateways
+│           │   ├── gatewayExample.gateway.ts
+│           │   └── gateways.module.ts
+│           ├── guards
+│           │   ├── guardExample.guard.ts
+│           │   └── guards.module.ts
+│           ├── providers
+│           │   ├── providerExample.provider.ts
+│           │   └── providers.module.ts
+│           ├── repositories
+│           │   ├── repositories.module.ts
+│           │   └── repositoryExample.repository.ts
+│           └── useCases
+│               └── useCaseExample
+│                   ├── CreateExample
+│                   │   ├── createExample.controller.ts
+│                   │   ├── createExample.dto.ts
+│                   │   ├── createExample.schema.ts
+│                   │   └── createExample.service.ts
+│                   └── useCaseExample.module.ts
 ├── CHANGELOG.md
 └── README.md
 ```
