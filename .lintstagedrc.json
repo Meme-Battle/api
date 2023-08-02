@@ -1,0 +1,5 @@
+{
+  "**/*.{ts,js}": [
+      "npx eslint --fix"
+    ]
+  }
