@@ -14,6 +14,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Add MIT LICENSE [MBU-14](https://memebattle.atlassian.net/browse/MBU-14)
 - Add content in the contributing file:structure of project [MBU-7](https://memebattle.atlassian.net/browse/MBU-7)
 - Add database config [#16](https://github.com/Meme-Battle/api/issues/16)
+- Add create room route [#14](https://github.com/Meme-Battle/api/issues/14)
 
 ### Fixed
 
