@@ -2,7 +2,7 @@ import { Test, TestingModule } from '@nestjs/testing';
 import { HttpStatus, INestApplication } from '@nestjs/common';
 import * as request from 'supertest';
 import { AppModule } from '../src/app.module';
-import { CreateRoomDTO } from 'src/room/createRoom/create-room.dto';
+import { CreateRoomDTO } from 'src/useCases/room/createRoom/create-room.dto';
 
 describe('RoomsController (e2e)', () => {
   let app: INestApplication;
