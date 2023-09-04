@@ -20,3 +20,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 
 - Fixed Commitlint and Husky settings [MBU-3](https://memebattle.atlassian.net/browse/MBU-3)
+- Added validation for avatars and an 'avatar' field to the user schema [#14](https://github.com/Meme-Battle/api/issues/14)

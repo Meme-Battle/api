@@ -6,10 +6,12 @@ export class User {
   room?: Room;
   roomId: string;
   socketId: string;
+  avatar: string;
 
   constructor(nickname: string, avatar: string, socketId: string) {
     this.id = randomUUID();
     this.nickname = nickname;
     this.socketId = socketId;
+    this.avatar = avatar;
   }
 }

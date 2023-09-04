@@ -22,4 +22,5 @@ model User {
   room   Room   @relation(fields: [roomId], references: [id])
   roomId String
   socketId String
+  avatar String
 }
