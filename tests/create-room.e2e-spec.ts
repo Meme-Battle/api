@@ -19,7 +19,7 @@ describe('RoomsController (e2e)', () => {
   it('should return 400 when nickname length is less than 3', async () => {
     const createRoomDto: CreateRoomDTO = {
       nickname: 'A',
-      avatar: 'ValidAvatar',
+      avatar: 'red.png',
     };
 
     const response = await request(app.getHttpServer())
@@ -32,7 +32,7 @@ describe('RoomsController (e2e)', () => {
   it('should return 400 when nickname length is more than 16', async () => {
     const createRoomDto: CreateRoomDTO = {
       nickname: 'ThisIsAVeryLongNickname',
-      avatar: 'ValidAvatar',
+      avatar: 'red.png',
     };
 
     const response = await request(app.getHttpServer())
@@ -42,10 +42,10 @@ describe('RoomsController (e2e)', () => {
     expect(response.status).toBe(HttpStatus.BAD_REQUEST);
   });
 
-  it('should return 400 when avatar is empty', async () => {
+  it('should return 400 when avatar is invalid', async () => {
     const createRoomDto: CreateRoomDTO = {
       nickname: 'ValidNickname',
-      avatar: '',
+      avatar: 'invalid.png',
     };
 
     const response = await request(app.getHttpServer())
@@ -58,7 +58,7 @@ describe('RoomsController (e2e)', () => {
   it('should return 201 when DTO validation passes', async () => {
     const createRoomDto: CreateRoomDTO = {
       nickname: 'ValidNickname',
-      avatar: 'ValidAvatar',
+      avatar: 'red.png',
     };
 
     const response = await request(app.getHttpServer())
